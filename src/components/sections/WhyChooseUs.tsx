@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
               transition={{ delay: 0.3 }}
               className="text-stone-400 font-light text-lg mb-10"
             >
-              We don't just design spaces; we curate lifestyles. Our commitment to excellence, transparency, and innovation makes us the preferred choice for luxury interiors.
+              We don&apos;t just design spaces; we curate lifestyles. Our commitment to excellence, transparency, and innovation makes us the preferred choice for luxury interiors.
             </motion.p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

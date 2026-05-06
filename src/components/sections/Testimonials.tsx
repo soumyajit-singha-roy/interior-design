@@ -80,7 +80,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.5, ease: [0.19, 1, 0.22, 1] }}
                 drag="x"
                 dragConstraints={{ left: 0, right: 0 }}
-                onDragEnd={(e, { offset, velocity }) => {
+                onDragEnd={(e, { offset }) => {
                   const swipe = offset.x;
                   if (swipe < -50) nextTestimonial();
                   else if (swipe > 50) prevTestimonial();
@@ -89,7 +89,7 @@ export default function Testimonials() {
               >
                 <Quote className="w-10 h-10 text-gold-500 mx-auto mb-6 md:mb-8 opacity-50" />
                 <p className="text-lg md:text-2xl text-stone-700 font-light leading-relaxed mb-8 md:text-stone-700">
-                  "{testimonials[currentIndex].text}"
+                  &quot;{testimonials[currentIndex].text}&quot;
                 </p>
                 <div>
                   <h4 className="font-serif text-xl text-stone-900">{testimonials[currentIndex].author}</h4>

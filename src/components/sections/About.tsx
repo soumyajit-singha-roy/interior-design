@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -68,7 +67,7 @@ export default function About() {
                 From sprawling residential villas to premium corporate offices, our client-focused methodology ensures that every project is meticulously crafted with the finest materials, innovative space planning, and an uncompromising eye for aesthetics.
               </p>
               <p>
-                We don't just decorate rooms; we curate experiences that resonate with elegance and timeless sophistication.
+                We don&apos;t just decorate rooms; we curate experiences that resonate with elegance and timeless sophistication.
               </p>
             </div>
             

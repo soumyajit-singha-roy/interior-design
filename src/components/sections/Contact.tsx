@@ -21,10 +21,10 @@ export default function Contact() {
                 <span className="uppercase tracking-widest text-sm font-semibold text-gold-600">Get In Touch</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif text-stone-900 mb-6">
-                Let's Discuss Your <span className="italic font-light">Vision</span>
+                Let&apos;s Discuss Your <span className="italic font-light">Vision</span>
               </h2>
               <p className="text-stone-500 font-light mb-12">
-                Whether you're looking to redesign your living room or build a commercial space from scratch, our team is ready to bring your vision to life.
+                Whether you&apos;re looking to redesign your living room or build a commercial space from scratch, our team is ready to bring your vision to life.
               </p>
 
               <div className="space-y-8">
