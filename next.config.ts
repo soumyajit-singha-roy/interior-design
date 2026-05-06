@@ -6,11 +6,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/interior-design',
-  experimental: {
-    turbopack: {
-      root: process.cwd(),
-    },
-  },
 };
 
 export default nextConfig;
